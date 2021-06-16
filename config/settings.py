@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-laol0lx)#=k=$2qhsk0bcs@n%ugfz(&sjzviqybz=i)7o3hu$=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.23']
+ALLOWED_HOSTS = ['192.168.1.23', 'localhost']
 
 
 # Application definition
@@ -132,3 +132,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #로그인 성공 시 자동으로 이동할 URL
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+

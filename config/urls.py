@@ -18,7 +18,8 @@ from django.urls import path, include
 from pybo.views import base_views
 
 admin.site.site_header = 'AOK 관리자'
-admin.site.site_title = '게시판 관리'
+admin.site.site_title = 'AOK 게시판 관리'
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
